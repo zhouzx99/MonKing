@@ -1,0 +1,26 @@
+============================================================
+Time  2017/03/21 13:58:16 560 
+============================================================
+[2017/03/21 13:58:16 560] isr_1conn  2088 SYS_MSG_LOAD_CLOUD  
+[2017/03/21 13:58:16 560] isr_1conn  2109 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(73e9b268) 
+[2017/03/21 13:58:16 560] isr_1conn  2109 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(73e9bf48) 
+[2017/03/21 13:58:16 561] isr_1conn  2109 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(73e9c078) 
+[2017/03/21 13:58:16 561] isr_1conn  2109 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(73e9c138) 
+[2017/03/21 13:58:16 561] isr_1conn  1382 onesoc  
+[2017/03/21 13:58:16 561] isr_1conn  1383 ASR_CLOUD_MSG_SSB  
+[2017/03/21 13:58:16 562] isr_1conn  1398 isr_1conn  cloud_cisr1PdHHBHN7M1LakAkaalwVwkUlI0Ct8  268436457  1428405382  
+[2017/03/21 13:58:16 562] isr_1conn  1578 nil  
+[2017/03/21 13:58:16 562] isr_1conn  1647 speex-wb  
+[2017/03/21 13:58:16 562] isr_1conn  1713 once bytes  122  
+[2017/03/21 13:58:16 563] isr_1conn  1734 User set url is   nil  
+[2017/03/21 13:58:16 563] transport  596  paramkvsport is   nil  
+[2017/03/21 13:58:16 563] transport  801  net type:  standard  
+[2017/03/21 13:58:16 563] transport  802  net operator:  def  
+[2017/03/21 13:58:16 563] transport  803  use proxy:  false  
+[2017/03/21 13:58:16 566] network    85   ipfromenv ,  ipcache  dev.voicecloud.cn  def  117.121.21.149  
+[2017/03/21 13:58:16 566] transport  998  using cached ip:  117.121.21.149  
+[2017/03/21 13:58:16 566] transport  1033 ns_i =  nil  
+[2017/03/21 13:58:16 566] transport  1108 [soc] connect   117.121.21.149  80  
+[2017/03/21 13:58:16 567] isr_1conn  1915 ASR_CLOUD_MSG_SSE  
+[2017/03/21 13:58:16 570] isr_1conn  1250 isr_1conn session info  
+[2017/03/21 13:58:16 574] isr_1conn  2059 session finished! ret =   10131  

@@ -1,0 +1,1604 @@
+============================================================
+Time  2017/03/20 14:06:22 947 
+============================================================
+[2017/03/20 14:06:22 948] isr        1315 isr loaded!  
+[2017/03/20 14:06:22 948] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7511cdf8) 
+[2017/03/20 14:06:22 948] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:06:22 948] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 14:06:22 949] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 14:06:22 949] isr        716  vad_set [in]  
+[2017/03/20 14:06:22 949] isr        751  vad_enable :  true  
+[2017/03/20 14:06:22 949] isr        768  vad_timeout :  10000  
+[2017/03/20 14:06:22 949] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:06:22 949] isr        675  enable_vad [in]  
+[2017/03/20 14:06:22 950] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:06:22 950] isr        710  enable_vad [out]  
+[2017/03/20 14:06:22 950] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:06:22 950] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:06:22 950] isr        795  cloud_session_begin  
+[2017/03/20 14:06:22 950] isr        807  standard  
+[2017/03/20 14:06:22 954] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:06:22 954] isr        1224 6400  1  
+[2017/03/20 14:06:22 954] isr        1228 once_bytes:   6400  
+[2017/03/20 14:06:22 960] isr        623  [aud] speech start  
+[2017/03/20 22:06:23 134] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:23 134] isr        1224 6400  2  
+[2017/03/20 22:06:23 177] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:23 178] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:06:23 334] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:23 334] isr        1224 6400  2  
+[2017/03/20 22:06:23 380] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:23 535] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:23 535] isr        1224 6400  2  
+[2017/03/20 22:06:23 572] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:23 735] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:23 735] isr        1224 6400  2  
+[2017/03/20 22:06:23 775] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:23 935] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:23 935] isr        1224 6400  2  
+[2017/03/20 22:06:23 978] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:24 136] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:24 136] isr        1224 6400  2  
+[2017/03/20 22:06:24 201] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:24 336] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:24 337] isr        1224 6400  2  
+[2017/03/20 22:06:24 385] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:24 537] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:24 537] isr        1224 6400  2  
+[2017/03/20 22:06:24 578] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:24 750] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:24 750] isr        1224 6400  2  
+[2017/03/20 22:06:24 800] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:24 951] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:24 951] isr        1224 6400  2  
+[2017/03/20 22:06:25 003] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:25 151] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:25 151] isr        1224 6400  2  
+[2017/03/20 22:06:25 200] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:25 352] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:25 352] isr        1224 6400  2  
+[2017/03/20 22:06:25 393] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:25 552] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:25 552] isr        1224 6400  2  
+[2017/03/20 22:06:25 595] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:25 752] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:25 752] isr        1224 6400  2  
+[2017/03/20 22:06:25 791] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:25 953] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:25 953] isr        1224 6400  2  
+[2017/03/20 22:06:25 994] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:26 153] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:26 153] isr        1224 6400  2  
+[2017/03/20 22:06:26 196] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:26 354] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:26 354] isr        1224 6400  2  
+[2017/03/20 22:06:26 399] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:26 554] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:26 554] isr        1224 6400  2  
+[2017/03/20 22:06:26 602] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:26 754] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:26 754] isr        1224 6400  2  
+[2017/03/20 22:06:26 824] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:26 955] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:26 955] isr        1224 6400  2  
+[2017/03/20 22:06:26 997] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:27 155] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:27 155] isr        1224 6400  2  
+[2017/03/20 22:06:27 200] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:06:27 201] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 22:06:27 201] isr        339  process_result call:  cloud  udata(75125c68) 0  nil  
+[2017/03/20 22:06:27 356] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:27 356] isr        1224 7420  2  
+[2017/03/20 22:06:27 356] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:06:27 357] isr        1049 0  udata(75125c68) 0  
+[2017/03/20 22:06:27 402] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:27 413] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:27 560] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:06:27 560] isr        1224 0  4  
+[2017/03/20 22:06:27 560] isr        1257 aud end, USER  
+[2017/03/20 22:06:27 561] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:06:27 561] isr        1049 0  nil  2  
+[2017/03/20 22:06:27 562] isr        633  [aud] speech end  
+[2017/03/20 22:06:27 587] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:06:27 591] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:06:27 591] isr        339  process_result call:  cloud  udata(751261b8) 5  nil  
+[2017/03/20 22:06:27 712] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:06:27 712] isr        1049 0  udata(751261b8) 5  
+[2017/03/20 22:06:27 863] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:06:27 863] isr        1054 session_end() [in]  
+[2017/03/20 22:06:27 863] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:06:27 866] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:06:27 867] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:07:10 995 
+============================================================
+[2017/03/20 14:07:10 995] isr        1315 isr loaded!  
+[2017/03/20 14:07:10 995] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7631cdf8) 
+[2017/03/20 14:07:10 996] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:07:10 996] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 14:07:10 996] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 14:07:10 996] isr        716  vad_set [in]  
+[2017/03/20 14:07:10 996] isr        751  vad_enable :  true  
+[2017/03/20 14:07:10 996] isr        768  vad_timeout :  10000  
+[2017/03/20 14:07:10 996] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:07:10 997] isr        675  enable_vad [in]  
+[2017/03/20 14:07:10 997] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:07:10 998] isr        710  enable_vad [out]  
+[2017/03/20 14:07:10 998] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:07:10 998] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:07:10 998] isr        795  cloud_session_begin  
+[2017/03/20 14:07:10 998] isr        807  standard  
+[2017/03/20 14:07:11 002] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:07:11 002] isr        1224 6400  1  
+[2017/03/20 14:07:11 002] isr        1228 once_bytes:   6400  
+[2017/03/20 14:07:11 007] isr        623  [aud] speech start  
+[2017/03/20 22:07:11 181] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:11 181] isr        1224 6400  2  
+[2017/03/20 22:07:11 234] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:11 234] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:07:11 381] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:11 381] isr        1224 6400  2  
+[2017/03/20 22:07:11 437] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:11 581] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:11 581] isr        1224 6400  2  
+[2017/03/20 22:07:11 629] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:11 782] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:11 782] isr        1224 6400  2  
+[2017/03/20 22:07:11 841] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:11 982] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:11 982] isr        1224 6400  2  
+[2017/03/20 22:07:12 024] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:12 182] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:12 183] isr        1224 6400  2  
+[2017/03/20 22:07:12 226] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:12 383] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:12 383] isr        1224 6400  2  
+[2017/03/20 22:07:12 439] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:12 583] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:12 583] isr        1224 6400  2  
+[2017/03/20 22:07:12 631] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:12 783] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:12 784] isr        1224 6400  2  
+[2017/03/20 22:07:12 844] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:12 984] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:12 984] isr        1224 6400  2  
+[2017/03/20 22:07:13 036] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:13 184] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:13 185] isr        1224 6400  2  
+[2017/03/20 22:07:13 349] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:13 385] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:13 385] isr        1224 6400  2  
+[2017/03/20 22:07:13 431] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:13 585] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:13 585] isr        1224 6400  2  
+[2017/03/20 22:07:13 623] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:13 786] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:13 786] isr        1224 6400  2  
+[2017/03/20 22:07:13 826] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:13 986] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:13 987] isr        1224 6400  2  
+[2017/03/20 22:07:14 061] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:14 187] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:14 187] isr        1224 6400  2  
+[2017/03/20 22:07:14 255] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:14 388] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:14 388] isr        1224 6400  2  
+[2017/03/20 22:07:14 459] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:14 588] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:14 588] isr        1224 6400  2  
+[2017/03/20 22:07:14 673] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:14 789] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:14 789] isr        1224 6400  2  
+[2017/03/20 22:07:14 857] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:14 990] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:14 990] isr        1224 6400  2  
+[2017/03/20 22:07:15 061] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:15 190] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:15 190] isr        1224 6400  2  
+[2017/03/20 22:07:15 266] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:07:15 267] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 22:07:15 267] isr        339  process_result call:  cloud  udata(76325ff0) 0  nil  
+[2017/03/20 22:07:15 391] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:15 391] isr        1224 7420  2  
+[2017/03/20 22:07:15 392] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:07:15 393] isr        1049 0  udata(76325ff0) 0  
+[2017/03/20 22:07:15 474] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:15 482] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:15 594] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:15 594] isr        1224 0  4  
+[2017/03/20 22:07:15 594] isr        1257 aud end, USER  
+[2017/03/20 22:07:15 594] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:07:15 595] isr        1049 0  nil  2  
+[2017/03/20 22:07:15 596] isr        633  [aud] speech end  
+[2017/03/20 22:07:15 626] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:15 630] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:07:15 630] isr        339  process_result call:  cloud  udata(76326720) 5  nil  
+[2017/03/20 22:07:15 745] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:07:15 745] isr        1049 0  udata(76326720) 5  
+[2017/03/20 22:07:15 896] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:07:15 896] isr        1054 session_end() [in]  
+[2017/03/20 22:07:15 896] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:07:15 899] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:07:15 900] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:07:31 861 
+============================================================
+[2017/03/20 14:07:31 861] isr        1315 isr loaded!  
+[2017/03/20 14:07:31 862] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7511cdf8) 
+[2017/03/20 14:07:31 862] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:07:31 863] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 14:07:31 863] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 14:07:31 863] isr        716  vad_set [in]  
+[2017/03/20 14:07:31 863] isr        751  vad_enable :  true  
+[2017/03/20 14:07:31 864] isr        768  vad_timeout :  10000  
+[2017/03/20 14:07:31 864] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:07:31 864] isr        675  enable_vad [in]  
+[2017/03/20 14:07:31 865] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:07:31 866] isr        710  enable_vad [out]  
+[2017/03/20 14:07:31 866] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:07:31 866] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:07:31 866] isr        795  cloud_session_begin  
+[2017/03/20 14:07:31 866] isr        807  standard  
+[2017/03/20 14:07:31 873] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:07:31 874] isr        1224 6400  1  
+[2017/03/20 14:07:31 874] isr        1228 once_bytes:   6400  
+[2017/03/20 14:07:31 885] isr        623  [aud] speech start  
+[2017/03/20 22:07:32 051] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:32 051] isr        1224 6400  2  
+[2017/03/20 22:07:32 120] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:32 121] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:07:32 251] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:32 251] isr        1224 6400  2  
+[2017/03/20 22:07:32 324] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:32 452] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:32 452] isr        1224 6400  2  
+[2017/03/20 22:07:32 518] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:32 653] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:32 653] isr        1224 6400  2  
+[2017/03/20 22:07:32 719] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:32 853] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:32 853] isr        1224 6400  2  
+[2017/03/20 22:07:32 942] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:33 054] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:33 054] isr        1224 6400  2  
+[2017/03/20 22:07:33 118] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:33 254] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:33 254] isr        1224 6400  2  
+[2017/03/20 22:07:33 321] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:33 455] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:33 455] isr        1224 6400  2  
+[2017/03/20 22:07:33 525] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:33 656] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:33 656] isr        1224 6400  2  
+[2017/03/20 22:07:33 737] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:33 856] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:33 856] isr        1224 6400  2  
+[2017/03/20 22:07:33 919] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:34 056] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:34 056] isr        1224 6400  2  
+[2017/03/20 22:07:34 142] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:34 257] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:34 257] isr        1224 6400  2  
+[2017/03/20 22:07:34 324] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:34 457] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:34 458] isr        1224 6400  2  
+[2017/03/20 22:07:34 537] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:34 658] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:34 658] isr        1224 6400  2  
+[2017/03/20 22:07:34 720] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:34 858] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:34 858] isr        1224 6400  2  
+[2017/03/20 22:07:34 923] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:35 059] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:35 059] isr        1224 6400  2  
+[2017/03/20 22:07:35 115] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:35 259] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:35 259] isr        1224 6400  2  
+[2017/03/20 22:07:35 298] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:35 459] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:35 460] isr        1224 6400  2  
+[2017/03/20 22:07:35 561] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:35 660] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:35 660] isr        1224 6400  2  
+[2017/03/20 22:07:35 743] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:35 860] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:35 860] isr        1224 6400  2  
+[2017/03/20 22:07:36 026] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:36 060] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:36 061] isr        1224 6400  2  
+[2017/03/20 22:07:36 219] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:07:36 220] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 22:07:36 220] isr        339  process_result call:  cloud  udata(75126348) 0  nil  
+[2017/03/20 22:07:36 261] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:36 261] isr        1224 7420  2  
+[2017/03/20 22:07:36 262] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:07:36 262] isr        1049 0  udata(75126348) 0  
+[2017/03/20 22:07:36 351] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:36 433] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:36 463] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:07:36 463] isr        1224 0  4  
+[2017/03/20 22:07:36 463] isr        1257 aud end, USER  
+[2017/03/20 22:07:36 464] isr        633  [aud] speech end  
+[2017/03/20 22:07:36 465] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:07:36 466] isr        1049 0  nil  2  
+[2017/03/20 22:07:36 586] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:07:36 590] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:07:36 590] isr        339  process_result call:  cloud  udata(75121bb0) 5  nil  
+[2017/03/20 22:07:36 617] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:07:36 617] isr        1049 0  udata(75121bb0) 5  
+[2017/03/20 22:07:36 768] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:07:36 768] isr        1054 session_end() [in]  
+[2017/03/20 22:07:36 768] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:07:36 771] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:07:36 771] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:09:02 763 
+============================================================
+[2017/03/20 14:09:02 763] isr        1315 isr loaded!  
+[2017/03/20 14:09:02 763] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(75013428) 
+[2017/03/20 14:09:02 764] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:09:02 764] isr        853  session_begin() [in], params:   sub = asr, result_type = plain, result_encoding = utf8,sample_rate = 16000,aue = speex-wb  4e4a82e35c043a0cb7d0af54babae63a  
+[2017/03/20 14:09:02 764] isr        716  vad_set [in]  
+[2017/03/20 14:09:02 764] isr        751  vad_enable :  true  
+[2017/03/20 14:09:02 764] isr        768  vad_timeout :  10000  
+[2017/03/20 14:09:02 764] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:09:02 764] isr        675  enable_vad [in]  
+[2017/03/20 14:09:02 765] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:09:02 765] isr        710  enable_vad [out]  
+[2017/03/20 14:09:02 765] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:09:02 766] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:09:02 766] isr        795  cloud_session_begin  
+[2017/03/20 14:09:02 766] isr        807  standard  
+[2017/03/20 14:09:02 777] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:09:02 778] isr        1224 6400  1  
+[2017/03/20 14:09:02 778] isr        1228 once_bytes:   6400  
+[2017/03/20 14:09:02 784] isr        623  [aud] speech start  
+[2017/03/20 22:09:02 956] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:02 956] isr        1224 6400  2  
+[2017/03/20 22:09:03 157] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:03 157] isr        1224 6400  2  
+[2017/03/20 22:09:03 357] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:03 357] isr        1224 6400  2  
+[2017/03/20 22:09:03 557] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:03 557] isr        1224 6400  2  
+[2017/03/20 22:09:03 758] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:03 758] isr        1224 6400  2  
+[2017/03/20 22:09:03 958] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:03 958] isr        1224 6400  2  
+[2017/03/20 22:09:04 018] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:09:04 159] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:04 159] isr        1224 6400  2  
+[2017/03/20 22:09:04 360] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:04 360] isr        1224 6400  2  
+[2017/03/20 22:09:04 560] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:04 561] isr        1224 6400  2  
+[2017/03/20 22:09:04 761] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:04 761] isr        1224 6400  2  
+[2017/03/20 22:09:04 962] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:04 962] isr        1224 6400  2  
+[2017/03/20 22:09:05 162] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:05 163] isr        1224 6400  2  
+[2017/03/20 22:09:05 363] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:05 363] isr        1224 6400  2  
+[2017/03/20 22:09:05 564] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:05 564] isr        1224 6400  2  
+[2017/03/20 22:09:05 765] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:05 765] isr        1224 6400  2  
+[2017/03/20 22:09:05 965] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:05 966] isr        1224 6400  2  
+[2017/03/20 22:09:06 166] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:06 166] isr        1224 6400  2  
+[2017/03/20 22:09:06 367] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:06 367] isr        1224 6400  2  
+[2017/03/20 22:09:06 567] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:06 568] isr        1224 6400  2  
+[2017/03/20 22:09:06 768] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:06 768] isr        1224 11442  2  
+[2017/03/20 22:09:06 969] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:06 969] isr        1224 0  4  
+[2017/03/20 22:09:06 969] isr        1257 aud end, USER  
+[2017/03/20 22:09:06 973] isr        633  [aud] speech end  
+[2017/03/20 22:09:06 976] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:06 976] isr        1049 0  nil  2  
+[2017/03/20 22:09:07 018] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:09:07 127] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:07 127] isr        1049 0  nil  2  
+[2017/03/20 22:09:07 279] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:07 279] isr        1049 0  nil  2  
+[2017/03/20 22:09:07 317] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:09:07 324] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:09:07 324] isr        339  process_result call:  cloud  udata(75028208) 5  nil  
+[2017/03/20 22:09:07 326] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:09:07 430] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:07 430] isr        1049 0  udata(75028208) 5  
+[2017/03/20 22:09:07 591] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:09:07 592] isr        1054 session_end() [in]  
+[2017/03/20 22:09:07 592] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:09:07 598] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:09:07 599] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:09:34 631 
+============================================================
+[2017/03/20 14:09:34 631] isr        1315 isr loaded!  
+[2017/03/20 14:09:34 631] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7503a698) 
+[2017/03/20 14:09:34 632] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:09:34 632] isr        853  session_begin() [in], params:   sub = asr, result_type = plain, result_encoding = utf8,sample_rate = 16000,aue = speex-wb  6f2d46a37ab8b4e13517895f9592627a  
+[2017/03/20 14:09:34 632] isr        716  vad_set [in]  
+[2017/03/20 14:09:34 632] isr        751  vad_enable :  true  
+[2017/03/20 14:09:34 632] isr        768  vad_timeout :  10000  
+[2017/03/20 14:09:34 632] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:09:34 632] isr        675  enable_vad [in]  
+[2017/03/20 14:09:34 634] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:09:34 634] isr        710  enable_vad [out]  
+[2017/03/20 14:09:34 634] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:09:34 634] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:09:34 634] isr        795  cloud_session_begin  
+[2017/03/20 14:09:34 634] isr        807  standard  
+[2017/03/20 14:09:34 653] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:09:34 653] isr        1224 6400  1  
+[2017/03/20 14:09:34 653] isr        1228 once_bytes:   6400  
+[2017/03/20 14:09:34 660] isr        623  [aud] speech start  
+[2017/03/20 22:09:34 820] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:34 821] isr        1224 6400  2  
+[2017/03/20 22:09:35 021] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:35 021] isr        1224 6400  2  
+[2017/03/20 22:09:35 221] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:35 221] isr        1224 6400  2  
+[2017/03/20 22:09:35 422] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:35 422] isr        1224 6400  2  
+[2017/03/20 22:09:35 622] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:35 622] isr        1224 6400  2  
+[2017/03/20 22:09:35 822] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:35 823] isr        1224 6400  2  
+[2017/03/20 22:09:35 878] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:09:36 023] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:36 023] isr        1224 6400  2  
+[2017/03/20 22:09:36 223] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:36 223] isr        1224 6400  2  
+[2017/03/20 22:09:36 423] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:36 424] isr        1224 6400  2  
+[2017/03/20 22:09:36 624] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:36 624] isr        1224 6400  2  
+[2017/03/20 22:09:36 824] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:36 824] isr        1224 6400  2  
+[2017/03/20 22:09:37 025] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:37 025] isr        1224 6400  2  
+[2017/03/20 22:09:37 225] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:37 225] isr        1224 6400  2  
+[2017/03/20 22:09:37 425] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:37 426] isr        1224 6400  2  
+[2017/03/20 22:09:37 626] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:37 626] isr        1224 6400  2  
+[2017/03/20 22:09:37 826] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:37 826] isr        1224 6400  2  
+[2017/03/20 22:09:38 027] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:38 027] isr        1224 6400  2  
+[2017/03/20 22:09:38 227] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:38 227] isr        1224 6400  2  
+[2017/03/20 22:09:38 427] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:38 427] isr        1224 6400  2  
+[2017/03/20 22:09:38 628] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:38 628] isr        1224 11442  2  
+[2017/03/20 22:09:38 828] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:09:38 828] isr        1224 0  4  
+[2017/03/20 22:09:38 828] isr        1257 aud end, USER  
+[2017/03/20 22:09:38 829] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:38 829] isr        1049 0  nil  2  
+[2017/03/20 22:09:38 831] isr        633  [aud] speech end  
+[2017/03/20 22:09:38 867] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:09:38 980] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:38 980] isr        1049 0  nil  2  
+[2017/03/20 22:09:39 131] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:39 132] isr        1049 0  nil  2  
+[2017/03/20 22:09:39 283] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:39 283] isr        1049 0  nil  2  
+[2017/03/20 22:09:39 419] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:09:39 426] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:09:39 426] isr        339  process_result call:  cloud  udata(750079a8) 5  nil  
+[2017/03/20 22:09:39 428] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:09:39 434] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:09:39 434] isr        1049 0  udata(750079a8) 5  
+[2017/03/20 22:09:39 586] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:09:39 586] isr        1054 session_end() [in]  
+[2017/03/20 22:09:39 586] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:09:39 591] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:09:39 593] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:15:25 343 
+============================================================
+[2017/03/20 14:15:25 344] isr        1315 isr loaded!  
+[2017/03/20 14:15:25 344] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(75132b48) 
+[2017/03/20 14:15:25 345] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:15:25 345] isr        853  session_begin() [in], params:   sub = asr, result_type = plain, result_encoding = utf8,sample_rate = 16000,aue = speex-wb  bafbc4419697f91b346a34d83833ef86  
+[2017/03/20 14:15:25 346] isr        716  vad_set [in]  
+[2017/03/20 14:15:25 346] isr        751  vad_enable :  true  
+[2017/03/20 14:15:25 346] isr        768  vad_timeout :  10000  
+[2017/03/20 14:15:25 346] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:15:25 346] isr        675  enable_vad [in]  
+[2017/03/20 14:15:25 349] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:15:25 349] isr        710  enable_vad [out]  
+[2017/03/20 14:15:25 349] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:15:25 349] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:15:25 349] isr        795  cloud_session_begin  
+[2017/03/20 14:15:25 350] isr        807  standard  
+[2017/03/20 14:15:25 357] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:15:25 357] isr        1224 6400  1  
+[2017/03/20 14:15:25 357] isr        1228 once_bytes:   6400  
+[2017/03/20 14:15:25 371] isr        623  [aud] speech start  
+[2017/03/20 22:15:25 524] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:25 524] isr        1224 6400  2  
+[2017/03/20 22:15:25 725] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:25 725] isr        1224 6400  2  
+[2017/03/20 22:15:25 925] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:25 926] isr        1224 6400  2  
+[2017/03/20 22:15:26 126] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:26 126] isr        1224 6400  2  
+[2017/03/20 22:15:26 327] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:26 327] isr        1224 6400  2  
+[2017/03/20 22:15:26 527] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:26 528] isr        1224 6400  2  
+[2017/03/20 22:15:26 625] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:15:26 728] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:26 728] isr        1224 6400  2  
+[2017/03/20 22:15:26 929] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:26 929] isr        1224 6400  2  
+[2017/03/20 22:15:27 129] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:27 130] isr        1224 6400  2  
+[2017/03/20 22:15:27 330] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:27 330] isr        1224 6400  2  
+[2017/03/20 22:15:27 531] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:27 531] isr        1224 6400  2  
+[2017/03/20 22:15:27 731] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:27 732] isr        1224 6400  2  
+[2017/03/20 22:15:27 932] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:27 932] isr        1224 6400  2  
+[2017/03/20 22:15:28 133] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:28 133] isr        1224 6400  2  
+[2017/03/20 22:15:28 333] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:28 333] isr        1224 6400  2  
+[2017/03/20 22:15:28 534] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:28 534] isr        1224 6400  2  
+[2017/03/20 22:15:28 735] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:28 735] isr        1224 6400  2  
+[2017/03/20 22:15:28 935] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:28 936] isr        1224 6400  2  
+[2017/03/20 22:15:29 136] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:29 136] isr        1224 6400  2  
+[2017/03/20 22:15:29 337] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:29 337] isr        1224 11442  2  
+[2017/03/20 22:15:29 537] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 22:15:29 537] isr        1224 0  4  
+[2017/03/20 22:15:29 537] isr        1257 aud end, USER  
+[2017/03/20 22:15:29 539] isr        633  [aud] speech end  
+[2017/03/20 22:15:29 540] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:15:29 540] isr        1049 0  nil  2  
+[2017/03/20 22:15:29 570] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:15:29 691] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:15:29 691] isr        1049 0  nil  2  
+[2017/03/20 22:15:29 841] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:15:29 841] isr        1049 0  nil  2  
+[2017/03/20 22:15:29 992] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:15:29 992] isr        1049 0  nil  2  
+[2017/03/20 22:15:30 125] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:15:30 129] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:15:30 130] isr        339  process_result call:  cloud  udata(7514da98) 5  nil  
+[2017/03/20 22:15:30 130] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 22:15:30 143] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:15:30 143] isr        1049 0  udata(7514da98) 5  
+[2017/03/20 22:15:30 294] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:15:30 294] isr        1054 session_end() [in]  
+[2017/03/20 22:15:30 294] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:15:30 297] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:15:30 298] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:16:40 212 
+============================================================
+[2017/03/20 14:16:40 212] isr        1315 isr loaded!  
+[2017/03/20 14:16:40 212] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(73e4ef78) 
+[2017/03/20 14:16:40 212] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:16:40 213] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 14:16:40 213] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 14:16:40 213] isr        716  vad_set [in]  
+[2017/03/20 14:16:40 213] isr        751  vad_enable :  true  
+[2017/03/20 14:16:40 213] isr        768  vad_timeout :  10000  
+[2017/03/20 14:16:40 213] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:16:40 213] isr        675  enable_vad [in]  
+[2017/03/20 14:16:40 214] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:16:40 214] isr        710  enable_vad [out]  
+[2017/03/20 14:16:40 214] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:16:40 214] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:16:40 214] isr        795  cloud_session_begin  
+[2017/03/20 14:16:40 214] isr        807  standard  
+[2017/03/20 14:16:40 227] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 14:16:40 227] isr        1054 session_end() [in]  
+[2017/03/20 14:16:40 227] isr        1111 cloud_session_end() [in]  
+[2017/03/20 14:16:40 229] isr        1180 cloud_session_end() [out]  
+[2017/03/20 14:16:40 230] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 14:18:48 251 
+============================================================
+[2017/03/20 14:18:48 251] isr        1315 isr loaded!  
+[2017/03/20 14:18:48 252] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(75032b80) 
+[2017/03/20 14:18:48 252] isr        1203 ASR_MSG_SSB  
+[2017/03/20 14:18:48 252] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 14:18:48 252] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 14:18:48 252] isr        716  vad_set [in]  
+[2017/03/20 14:18:48 252] isr        751  vad_enable :  true  
+[2017/03/20 14:18:48 253] isr        768  vad_timeout :  10000  
+[2017/03/20 14:18:48 253] isr        769  vad_speech_tail :  2000  
+[2017/03/20 14:18:48 253] isr        675  enable_vad [in]  
+[2017/03/20 14:18:48 254] isr        707  vad enabled!  2000  10000  
+[2017/03/20 14:18:48 254] isr        710  enable_vad [out]  
+[2017/03/20 14:18:48 254] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 14:18:48 254] isr        935  cur_engine_type =   cloud  
+[2017/03/20 14:18:48 254] isr        795  cloud_session_begin  
+[2017/03/20 14:18:48 254] isr        807  standard  
+[2017/03/20 14:18:48 258] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 258] isr        1224 6400  1  
+[2017/03/20 14:18:48 258] isr        1228 once_bytes:   6400  
+[2017/03/20 14:18:48 260] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 260] isr        1224 6400  2  
+[2017/03/20 14:18:48 261] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 261] isr        1224 6400  2  
+[2017/03/20 14:18:48 263] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 263] isr        1224 6400  2  
+[2017/03/20 14:18:48 265] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 265] isr        1224 6400  2  
+[2017/03/20 14:18:48 266] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 266] isr        1224 6400  2  
+[2017/03/20 14:18:48 267] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 268] isr        1224 6400  2  
+[2017/03/20 14:18:48 269] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 277] isr        1224 6400  2  
+[2017/03/20 14:18:48 278] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 278] isr        1224 6400  2  
+[2017/03/20 14:18:48 278] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 278] isr        1224 6400  2  
+[2017/03/20 14:18:48 279] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 279] isr        1224 6400  2  
+[2017/03/20 14:18:48 279] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 279] isr        1224 6400  2  
+[2017/03/20 14:18:48 280] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 280] isr        1224 6400  2  
+[2017/03/20 14:18:48 281] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 281] isr        1224 6400  2  
+[2017/03/20 14:18:48 281] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 282] isr        1224 6400  2  
+[2017/03/20 14:18:48 282] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 282] isr        1224 6400  2  
+[2017/03/20 14:18:48 283] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 283] isr        1224 6400  2  
+[2017/03/20 14:18:48 284] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 284] isr        1224 6400  2  
+[2017/03/20 14:18:48 285] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 285] isr        1224 6400  2  
+[2017/03/20 14:18:48 286] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 286] isr        1224 6400  2  
+[2017/03/20 14:18:48 287] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 287] isr        1224 6400  2  
+[2017/03/20 14:18:48 287] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 288] isr        1224 6400  2  
+[2017/03/20 14:18:48 288] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 288] isr        1224 7420  2  
+[2017/03/20 14:18:48 289] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 14:18:48 289] isr        1224 0  4  
+[2017/03/20 14:18:48 289] isr        1257 aud end, USER  
+[2017/03/20 14:18:48 290] isr        623  [aud] speech start  
+[2017/03/20 14:18:48 298] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 14:18:48 298] isr        1049 0  nil  2  
+[2017/03/20 22:18:48 331] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 331] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:18:48 333] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 334] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 343] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 365] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 366] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:18:48 366] isr        1049 0  nil  2  
+[2017/03/20 22:18:48 377] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 391] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 416] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 417] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 428] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 436] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 436] isr        633  [aud] speech end  
+[2017/03/20 22:18:48 447] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 448] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 22:18:48 457] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 466] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:18:48 467] isr        1049 0  nil  2  
+[2017/03/20 22:18:48 481] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 482] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 504] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 517] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 531] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 532] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 542] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 555] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 568] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:18:48 568] isr        1049 0  nil  2  
+[2017/03/20 22:18:48 570] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 660] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 22:18:48 660] isr        511  cloud_status_cb, eps:  3  
+[2017/03/20 22:18:48 661] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 22:18:48 661] isr        339  process_result call:  cloud  udata(7503b2c8) 0  nil  
+[2017/03/20 22:18:48 671] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:18:48 671] isr        1049 0  udata(7503b2c8) 0  
+[2017/03/20 22:18:48 676] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 22:18:48 676] isr        339  process_result call:  cloud  udata(7503b588) 5  nil  
+[2017/03/20 22:18:48 772] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 22:18:48 772] isr        1049 0  udata(7503b588) 5  
+[2017/03/20 22:18:48 873] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 22:18:48 873] isr        1054 session_end() [in]  
+[2017/03/20 22:18:48 873] isr        1111 cloud_session_end() [in]  
+[2017/03/20 22:18:48 876] isr        1180 cloud_session_end() [out]  
+[2017/03/20 22:18:48 876] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 15:11:49 771 
+============================================================
+[2017/03/20 15:11:49 771] isr        1315 isr loaded!  
+[2017/03/20 15:11:49 779] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7510ad18) 
+[2017/03/20 15:11:49 780] isr        1203 ASR_MSG_SSB  
+[2017/03/20 15:11:49 780] isr        853  session_begin() [in], params:   sub = asr, result_type = plain, result_encoding = utf8,sample_rate = 16000,aue = speex-wb  f3ce2fcf13786511510a5e36a3ac3feb  
+[2017/03/20 15:11:49 780] isr        716  vad_set [in]  
+[2017/03/20 15:11:49 780] isr        751  vad_enable :  true  
+[2017/03/20 15:11:49 780] isr        768  vad_timeout :  10000  
+[2017/03/20 15:11:49 781] isr        769  vad_speech_tail :  2000  
+[2017/03/20 15:11:49 781] isr        675  enable_vad [in]  
+[2017/03/20 15:11:49 782] isr        707  vad enabled!  2000  10000  
+[2017/03/20 15:11:49 782] isr        710  enable_vad [out]  
+[2017/03/20 15:11:49 782] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 15:11:49 782] isr        935  cur_engine_type =   cloud  
+[2017/03/20 15:11:49 782] isr        795  cloud_session_begin  
+[2017/03/20 15:11:49 782] isr        807  standard  
+[2017/03/20 15:11:49 799] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 15:11:49 799] isr        1224 6400  1  
+[2017/03/20 15:11:49 799] isr        1228 once_bytes:   6400  
+[2017/03/20 15:11:49 805] isr        623  [aud] speech start  
+[2017/03/20 23:11:49 966] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:49 966] isr        1224 6400  2  
+[2017/03/20 23:11:50 166] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:50 166] isr        1224 6400  2  
+[2017/03/20 23:11:50 366] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:50 367] isr        1224 6400  2  
+[2017/03/20 23:11:50 567] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:50 567] isr        1224 6400  2  
+[2017/03/20 23:11:50 767] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:50 767] isr        1224 6400  2  
+[2017/03/20 23:11:50 968] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:50 968] isr        1224 6400  2  
+[2017/03/20 23:11:51 016] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 23:11:51 168] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:51 168] isr        1224 6400  2  
+[2017/03/20 23:11:51 368] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:51 368] isr        1224 6400  2  
+[2017/03/20 23:11:51 569] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:51 569] isr        1224 6400  2  
+[2017/03/20 23:11:51 769] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:51 769] isr        1224 6400  2  
+[2017/03/20 23:11:51 970] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:51 970] isr        1224 6400  2  
+[2017/03/20 23:11:52 170] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:52 170] isr        1224 6400  2  
+[2017/03/20 23:11:52 370] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:52 370] isr        1224 6400  2  
+[2017/03/20 23:11:52 571] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:52 571] isr        1224 6400  2  
+[2017/03/20 23:11:52 771] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:52 771] isr        1224 6400  2  
+[2017/03/20 23:11:52 971] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:52 971] isr        1224 6400  2  
+[2017/03/20 23:11:53 172] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:53 172] isr        1224 6400  2  
+[2017/03/20 23:11:53 372] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:53 372] isr        1224 6400  2  
+[2017/03/20 23:11:53 572] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:53 573] isr        1224 6400  2  
+[2017/03/20 23:11:53 773] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:53 773] isr        1224 11442  2  
+[2017/03/20 23:11:53 973] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:11:53 973] isr        1224 0  4  
+[2017/03/20 23:11:53 974] isr        1257 aud end, USER  
+[2017/03/20 23:11:53 975] isr        633  [aud] speech end  
+[2017/03/20 23:11:53 976] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:53 976] isr        1049 0  nil  2  
+[2017/03/20 23:11:54 127] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:54 127] isr        1049 0  nil  2  
+[2017/03/20 23:11:54 278] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:54 278] isr        1049 0  nil  2  
+[2017/03/20 23:11:54 346] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 23:11:54 429] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:54 429] isr        1049 0  nil  2  
+[2017/03/20 23:11:54 590] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:54 591] isr        1049 0  nil  2  
+[2017/03/20 23:11:54 742] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:54 742] isr        1049 0  nil  2  
+[2017/03/20 23:11:54 896] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:54 896] isr        1049 0  nil  2  
+[2017/03/20 23:11:55 047] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:55 047] isr        1049 0  nil  2  
+[2017/03/20 23:11:55 113] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 23:11:55 120] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 23:11:55 120] isr        339  process_result call:  cloud  udata(75120028) 5  nil  
+[2017/03/20 23:11:55 122] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 23:11:55 199] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:11:55 199] isr        1049 0  udata(75120028) 5  
+[2017/03/20 23:11:55 350] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 23:11:55 350] isr        1054 session_end() [in]  
+[2017/03/20 23:11:55 351] isr        1111 cloud_session_end() [in]  
+[2017/03/20 23:11:55 357] isr        1180 cloud_session_end() [out]  
+[2017/03/20 23:11:55 358] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 15:12:59 263 
+============================================================
+[2017/03/20 15:12:59 263] isr        1315 isr loaded!  
+[2017/03/20 15:12:59 263] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7501ca40) 
+[2017/03/20 15:12:59 264] isr        1203 ASR_MSG_SSB  
+[2017/03/20 15:12:59 264] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 15:12:59 264] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 15:12:59 264] isr        716  vad_set [in]  
+[2017/03/20 15:12:59 264] isr        751  vad_enable :  true  
+[2017/03/20 15:12:59 264] isr        768  vad_timeout :  10000  
+[2017/03/20 15:12:59 264] isr        769  vad_speech_tail :  2000  
+[2017/03/20 15:12:59 264] isr        675  enable_vad [in]  
+[2017/03/20 15:12:59 268] isr        707  vad enabled!  2000  10000  
+[2017/03/20 15:12:59 268] isr        710  enable_vad [out]  
+[2017/03/20 15:12:59 268] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 15:12:59 268] isr        935  cur_engine_type =   cloud  
+[2017/03/20 15:12:59 268] isr        795  cloud_session_begin  
+[2017/03/20 15:12:59 268] isr        807  standard  
+[2017/03/20 15:12:59 278] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 15:12:59 278] isr        1224 6400  1  
+[2017/03/20 15:12:59 278] isr        1228 once_bytes:   6400  
+[2017/03/20 15:12:59 291] isr        623  [aud] speech start  
+[2017/03/20 23:12:59 438] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:12:59 438] isr        1224 6400  2  
+[2017/03/20 23:12:59 591] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:12:59 592] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 23:12:59 639] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:12:59 639] isr        1224 6400  2  
+[2017/03/20 23:12:59 735] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:12:59 839] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:12:59 839] isr        1224 6400  2  
+[2017/03/20 23:12:59 906] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:00 040] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:00 040] isr        1224 6400  2  
+[2017/03/20 23:13:00 106] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:00 240] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:00 241] isr        1224 6400  2  
+[2017/03/20 23:13:00 306] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:00 441] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:00 441] isr        1224 6400  2  
+[2017/03/20 23:13:00 508] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:00 642] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:00 642] isr        1224 6400  2  
+[2017/03/20 23:13:00 712] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:00 842] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:00 843] isr        1224 6400  2  
+[2017/03/20 23:13:00 908] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:01 043] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:01 043] isr        1224 6400  2  
+[2017/03/20 23:13:01 105] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:01 244] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:01 244] isr        1224 6400  2  
+[2017/03/20 23:13:01 309] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:01 444] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:01 445] isr        1224 6400  2  
+[2017/03/20 23:13:01 512] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:01 645] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:01 645] isr        1224 6400  2  
+[2017/03/20 23:13:01 716] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:01 846] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:01 846] isr        1224 6400  2  
+[2017/03/20 23:13:01 920] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:02 046] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:02 047] isr        1224 6400  2  
+[2017/03/20 23:13:02 129] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:02 247] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:02 247] isr        1224 6400  2  
+[2017/03/20 23:13:02 312] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:02 448] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:02 448] isr        1224 6400  2  
+[2017/03/20 23:13:02 517] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:02 648] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:02 648] isr        1224 6400  2  
+[2017/03/20 23:13:02 711] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:02 849] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:02 849] isr        1224 6400  2  
+[2017/03/20 23:13:02 915] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:03 049] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:03 050] isr        1224 6400  2  
+[2017/03/20 23:13:03 115] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:03 250] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:03 250] isr        1224 6400  2  
+[2017/03/20 23:13:03 319] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:03 451] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:03 451] isr        1224 6400  2  
+[2017/03/20 23:13:03 524] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 23:13:03 526] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 23:13:03 526] isr        339  process_result call:  cloud  udata(75025bf0) 0  nil  
+[2017/03/20 23:13:03 651] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:03 651] isr        1224 7420  2  
+[2017/03/20 23:13:03 667] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:03 668] isr        1049 0  udata(75025bf0) 0  
+[2017/03/20 23:13:03 718] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:03 750] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:03 869] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:03 869] isr        1224 0  4  
+[2017/03/20 23:13:03 869] isr        1257 aud end, USER  
+[2017/03/20 23:13:03 869] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:03 870] isr        1049 0  nil  2  
+[2017/03/20 23:13:03 871] isr        633  [aud] speech end  
+[2017/03/20 23:13:03 902] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:03 907] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 23:13:03 907] isr        339  process_result call:  cloud  udata(750266f8) 5  nil  
+[2017/03/20 23:13:04 021] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:04 021] isr        1049 0  udata(750266f8) 5  
+[2017/03/20 23:13:04 172] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 23:13:04 172] isr        1054 session_end() [in]  
+[2017/03/20 23:13:04 172] isr        1111 cloud_session_end() [in]  
+[2017/03/20 23:13:04 175] isr        1180 cloud_session_end() [out]  
+[2017/03/20 23:13:04 175] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 15:13:12 500 
+============================================================
+[2017/03/20 15:13:12 500] isr        1315 isr loaded!  
+[2017/03/20 15:13:12 500] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7513f450) 
+[2017/03/20 15:13:12 500] isr        1203 ASR_MSG_SSB  
+[2017/03/20 15:13:12 500] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 15:13:12 501] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 15:13:12 501] isr        716  vad_set [in]  
+[2017/03/20 15:13:12 501] isr        751  vad_enable :  true  
+[2017/03/20 15:13:12 501] isr        768  vad_timeout :  10000  
+[2017/03/20 15:13:12 501] isr        769  vad_speech_tail :  2000  
+[2017/03/20 15:13:12 501] isr        675  enable_vad [in]  
+[2017/03/20 15:13:12 502] isr        707  vad enabled!  2000  10000  
+[2017/03/20 15:13:12 502] isr        710  enable_vad [out]  
+[2017/03/20 15:13:12 502] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 15:13:12 502] isr        935  cur_engine_type =   cloud  
+[2017/03/20 15:13:12 502] isr        795  cloud_session_begin  
+[2017/03/20 15:13:12 502] isr        807  standard  
+[2017/03/20 15:13:12 506] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 15:13:12 506] isr        1224 6400  1  
+[2017/03/20 15:13:12 506] isr        1228 once_bytes:   6400  
+[2017/03/20 15:13:12 512] isr        623  [aud] speech start  
+[2017/03/20 23:13:12 666] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:12 666] isr        1224 6400  2  
+[2017/03/20 23:13:12 709] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:12 710] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 23:13:12 866] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:12 866] isr        1224 6400  2  
+[2017/03/20 23:13:12 902] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:13 067] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:13 067] isr        1224 6400  2  
+[2017/03/20 23:13:13 104] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:13 267] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:13 267] isr        1224 6400  2  
+[2017/03/20 23:13:13 317] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:13 467] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:13 468] isr        1224 6400  2  
+[2017/03/20 23:13:13 509] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:13 668] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:13 668] isr        1224 6400  2  
+[2017/03/20 23:13:13 712] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:13 868] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:13 868] isr        1224 6400  2  
+[2017/03/20 23:13:13 914] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:14 069] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:14 069] isr        1224 6400  2  
+[2017/03/20 23:13:14 107] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:14 269] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:14 269] isr        1224 6400  2  
+[2017/03/20 23:13:14 309] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:14 470] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:14 470] isr        1224 6400  2  
+[2017/03/20 23:13:14 549] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:14 670] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:14 670] isr        1224 6400  2  
+[2017/03/20 23:13:14 741] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:14 871] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:14 871] isr        1224 6400  2  
+[2017/03/20 23:13:14 935] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:15 072] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:15 072] isr        1224 6400  2  
+[2017/03/20 23:13:15 139] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:15 272] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:15 272] isr        1224 6400  2  
+[2017/03/20 23:13:15 333] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:15 473] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:15 473] isr        1224 6400  2  
+[2017/03/20 23:13:15 537] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:15 673] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:15 674] isr        1224 6400  2  
+[2017/03/20 23:13:15 741] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:15 874] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:15 874] isr        1224 6400  2  
+[2017/03/20 23:13:15 935] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:16 075] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:16 075] isr        1224 6400  2  
+[2017/03/20 23:13:16 150] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:16 276] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:16 276] isr        1224 6400  2  
+[2017/03/20 23:13:16 344] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:16 476] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:16 476] isr        1224 6400  2  
+[2017/03/20 23:13:16 548] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:16 677] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:16 677] isr        1224 6400  2  
+[2017/03/20 23:13:16 743] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 23:13:16 744] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 23:13:16 745] isr        339  process_result call:  cloud  udata(7514dbd0) 0  nil  
+[2017/03/20 23:13:16 878] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:16 878] isr        1224 7420  2  
+[2017/03/20 23:13:16 879] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:16 879] isr        1049 0  udata(7514dbd0) 0  
+[2017/03/20 23:13:16 947] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:16 977] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:17 080] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:17 080] isr        1224 0  4  
+[2017/03/20 23:13:17 081] isr        1257 aud end, USER  
+[2017/03/20 23:13:17 081] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:17 081] isr        1049 0  nil  2  
+[2017/03/20 23:13:17 082] isr        633  [aud] speech end  
+[2017/03/20 23:13:17 110] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:17 115] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 23:13:17 115] isr        339  process_result call:  cloud  udata(75142de0) 5  nil  
+[2017/03/20 23:13:17 232] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:17 232] isr        1049 0  udata(75142de0) 5  
+[2017/03/20 23:13:17 383] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 23:13:17 383] isr        1054 session_end() [in]  
+[2017/03/20 23:13:17 383] isr        1111 cloud_session_end() [in]  
+[2017/03/20 23:13:17 386] isr        1180 cloud_session_end() [out]  
+[2017/03/20 23:13:17 387] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 15:13:25 277 
+============================================================
+[2017/03/20 15:13:25 278] isr        1315 isr loaded!  
+[2017/03/20 15:13:25 278] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(75106718) 
+[2017/03/20 15:13:25 278] isr        1203 ASR_MSG_SSB  
+[2017/03/20 15:13:25 278] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 15:13:25 279] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 15:13:25 279] isr        716  vad_set [in]  
+[2017/03/20 15:13:25 279] isr        751  vad_enable :  true  
+[2017/03/20 15:13:25 279] isr        768  vad_timeout :  10000  
+[2017/03/20 15:13:25 279] isr        769  vad_speech_tail :  2000  
+[2017/03/20 15:13:25 279] isr        675  enable_vad [in]  
+[2017/03/20 15:13:25 280] isr        707  vad enabled!  2000  10000  
+[2017/03/20 15:13:25 280] isr        710  enable_vad [out]  
+[2017/03/20 15:13:25 280] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 15:13:25 280] isr        935  cur_engine_type =   cloud  
+[2017/03/20 15:13:25 280] isr        795  cloud_session_begin  
+[2017/03/20 15:13:25 280] isr        807  standard  
+[2017/03/20 15:13:25 288] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 15:13:25 288] isr        1224 6400  1  
+[2017/03/20 15:13:25 288] isr        1228 once_bytes:   6400  
+[2017/03/20 15:13:25 294] isr        623  [aud] speech start  
+[2017/03/20 23:13:25 454] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:25 455] isr        1224 6400  2  
+[2017/03/20 23:13:25 494] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:25 494] isr        511  cloud_status_cb, eps:  1  
+[2017/03/20 23:13:25 655] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:25 655] isr        1224 6400  2  
+[2017/03/20 23:13:25 696] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:25 856] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:25 856] isr        1224 6400  2  
+[2017/03/20 23:13:25 899] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:26 057] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:26 057] isr        1224 6400  2  
+[2017/03/20 23:13:26 102] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:26 257] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:26 257] isr        1224 6400  2  
+[2017/03/20 23:13:26 304] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:26 457] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:26 457] isr        1224 6400  2  
+[2017/03/20 23:13:26 496] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:26 658] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:26 658] isr        1224 6400  2  
+[2017/03/20 23:13:26 709] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:26 858] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:26 858] isr        1224 6400  2  
+[2017/03/20 23:13:26 912] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:27 058] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:27 059] isr        1224 6400  2  
+[2017/03/20 23:13:27 259] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:27 259] isr        1224 6400  2  
+[2017/03/20 23:13:27 459] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:27 459] isr        1224 6400  2  
+[2017/03/20 23:13:27 660] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:27 660] isr        1224 6400  2  
+[2017/03/20 23:13:27 870] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:27 871] isr        1224 6400  2  
+[2017/03/20 23:13:28 071] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:28 071] isr        1224 6400  2  
+[2017/03/20 23:13:28 271] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:28 271] isr        1224 6400  2  
+[2017/03/20 23:13:28 472] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:28 472] isr        1224 6400  2  
+[2017/03/20 23:13:28 672] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:28 672] isr        1224 6400  2  
+[2017/03/20 23:13:28 836] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 837] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 872] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:28 872] isr        1224 6400  2  
+[2017/03/20 23:13:28 944] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 945] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 946] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 947] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 948] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 949] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 955] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:28 956] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:29 073] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:29 073] isr        1224 6400  2  
+[2017/03/20 23:13:29 127] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:29 273] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:29 273] isr        1224 6400  2  
+[2017/03/20 23:13:29 320] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:29 474] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:29 474] isr        1224 6400  2  
+[2017/03/20 23:13:29 536] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/20 23:13:29 538] isr        462  cloud_rslt_cb status =   0  
+[2017/03/20 23:13:29 538] isr        339  process_result call:  cloud  udata(75104a70) 0  nil  
+[2017/03/20 23:13:29 675] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:29 675] isr        1224 7420  2  
+[2017/03/20 23:13:29 676] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:29 676] isr        1049 0  udata(75104a70) 0  
+[2017/03/20 23:13:29 756] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:29 767] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:29 878] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/20 23:13:29 878] isr        1224 0  4  
+[2017/03/20 23:13:29 878] isr        1257 aud end, USER  
+[2017/03/20 23:13:29 878] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:29 878] isr        1049 0  nil  2  
+[2017/03/20 23:13:29 879] isr        633  [aud] speech end  
+[2017/03/20 23:13:29 899] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/20 23:13:29 903] isr        462  cloud_rslt_cb status =   5  
+[2017/03/20 23:13:29 903] isr        339  process_result call:  cloud  udata(75139e00) 5  nil  
+[2017/03/20 23:13:30 029] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/20 23:13:30 029] isr        1049 0  udata(75139e00) 5  
+[2017/03/20 23:13:30 180] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 23:13:30 180] isr        1054 session_end() [in]  
+[2017/03/20 23:13:30 180] isr        1111 cloud_session_end() [in]  
+[2017/03/20 23:13:30 183] isr        1180 cloud_session_end() [out]  
+[2017/03/20 23:13:30 184] isr        1323 isr unload!  
+============================================================
+Time  2017/03/20 15:13:55 647 
+============================================================
+[2017/03/20 15:13:55 647] isr        1315 isr loaded!  
+[2017/03/20 15:13:55 648] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(75016e10) 
+[2017/03/20 15:13:55 648] isr        1203 ASR_MSG_SSB  
+[2017/03/20 15:13:55 648] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/20 15:13:55 648] isr        894  use cloud_grammar in params!  nil  
+[2017/03/20 15:13:55 648] isr        716  vad_set [in]  
+[2017/03/20 15:13:55 649] isr        751  vad_enable :  true  
+[2017/03/20 15:13:55 649] isr        768  vad_timeout :  10000  
+[2017/03/20 15:13:55 649] isr        769  vad_speech_tail :  2000  
+[2017/03/20 15:13:55 649] isr        675  enable_vad [in]  
+[2017/03/20 15:13:55 650] isr        707  vad enabled!  2000  10000  
+[2017/03/20 15:13:55 650] isr        710  enable_vad [out]  
+[2017/03/20 15:13:55 650] isr        775  vad_set [out] | ret =  0  
+[2017/03/20 15:13:55 650] isr        935  cur_engine_type =   cloud  
+[2017/03/20 15:13:55 650] isr        795  cloud_session_begin  
+[2017/03/20 15:13:55 650] isr        807  standard  
+[2017/03/20 15:13:55 658] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/20 15:13:55 658] isr        1054 session_end() [in]  
+[2017/03/20 15:13:55 658] isr        1111 cloud_session_end() [in]  
+[2017/03/20 15:13:55 661] isr        1180 cloud_session_end() [out]  
+[2017/03/20 15:13:55 661] isr        1323 isr unload!  
+============================================================
+Time  2017/03/21 13:56:50 803 
+============================================================
+[2017/03/21 13:56:50 803] isr        1315 isr loaded!  
+[2017/03/21 13:56:50 811] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(75130710) 
+[2017/03/21 13:56:50 811] isr        1203 ASR_MSG_SSB  
+[2017/03/21 13:56:50 811] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/21 13:56:50 812] isr        894  use cloud_grammar in params!  nil  
+[2017/03/21 13:56:50 812] isr        716  vad_set [in]  
+[2017/03/21 13:56:50 812] isr        751  vad_enable :  true  
+[2017/03/21 13:56:50 812] isr        768  vad_timeout :  10000  
+[2017/03/21 13:56:50 812] isr        769  vad_speech_tail :  2000  
+[2017/03/21 13:56:50 812] isr        675  enable_vad [in]  
+[2017/03/21 13:56:50 813] isr        707  vad enabled!  2000  10000  
+[2017/03/21 13:56:50 813] isr        710  enable_vad [out]  
+[2017/03/21 13:56:50 813] isr        775  vad_set [out] | ret =  0  
+[2017/03/21 13:56:50 813] isr        935  cur_engine_type =   cloud  
+[2017/03/21 13:56:50 813] isr        795  cloud_session_begin  
+[2017/03/21 13:56:50 813] isr        807  standard  
+[2017/03/21 13:56:50 835] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 13:56:50 835] isr        1224 6400  1  
+[2017/03/21 13:56:50 835] isr        1228 once_bytes:   6400  
+[2017/03/21 13:56:50 841] isr        623  [aud] speech start  
+[2017/03/21 21:56:51 021] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:51 021] isr        1224 6400  2  
+[2017/03/21 21:56:51 077] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:51 077] isr        511  cloud_status_cb, eps:  1  
+[2017/03/21 21:56:51 222] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:51 222] isr        1224 6400  2  
+[2017/03/21 21:56:51 270] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:51 422] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:51 422] isr        1224 6400  2  
+[2017/03/21 21:56:51 462] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:51 623] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:51 623] isr        1224 6400  2  
+[2017/03/21 21:56:51 666] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:51 823] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:51 823] isr        1224 6400  2  
+[2017/03/21 21:56:51 869] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:52 024] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:52 024] isr        1224 6400  2  
+[2017/03/21 21:56:52 122] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:52 224] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:52 224] isr        1224 6400  2  
+[2017/03/21 21:56:52 294] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:52 425] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:52 425] isr        1224 6400  2  
+[2017/03/21 21:56:52 557] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:52 625] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:52 625] isr        1224 6400  2  
+[2017/03/21 21:56:52 701] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:52 826] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:52 826] isr        1224 6400  2  
+[2017/03/21 21:56:52 919] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:53 026] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:53 026] isr        1224 6400  2  
+[2017/03/21 21:56:53 093] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:53 227] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:53 228] isr        1224 6400  2  
+[2017/03/21 21:56:53 296] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:53 428] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:53 428] isr        1224 6400  2  
+[2017/03/21 21:56:53 490] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:53 629] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:53 629] isr        1224 6400  2  
+[2017/03/21 21:56:53 704] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:53 829] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:53 830] isr        1224 6400  2  
+[2017/03/21 21:56:53 898] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:54 030] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:54 030] isr        1224 6400  2  
+[2017/03/21 21:56:54 113] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:54 231] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:54 231] isr        1224 6400  2  
+[2017/03/21 21:56:54 306] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:54 431] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:54 431] isr        1224 6400  2  
+[2017/03/21 21:56:54 501] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:54 632] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:54 632] isr        1224 6400  2  
+[2017/03/21 21:56:54 705] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:54 833] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:54 833] isr        1224 6400  2  
+[2017/03/21 21:56:54 900] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:55 033] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:55 034] isr        1224 6400  2  
+[2017/03/21 21:56:55 234] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:55 234] isr        1224 7420  2  
+[2017/03/21 21:56:55 336] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/21 21:56:55 337] isr        462  cloud_rslt_cb status =   0  
+[2017/03/21 21:56:55 337] isr        339  process_result call:  cloud  udata(75151f10) 0  nil  
+[2017/03/21 21:56:55 337] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:55 347] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:55 434] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:56:55 434] isr        1224 0  4  
+[2017/03/21 21:56:55 435] isr        1257 aud end, USER  
+[2017/03/21 21:56:55 435] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:56:55 435] isr        1049 0  udata(75151f10) 0  
+[2017/03/21 21:56:55 436] isr        633  [aud] speech end  
+[2017/03/21 21:56:55 461] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:56:55 467] isr        462  cloud_rslt_cb status =   5  
+[2017/03/21 21:56:55 467] isr        339  process_result call:  cloud  udata(75151df8) 5  nil  
+[2017/03/21 21:56:55 586] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:56:55 586] isr        1049 0  udata(75151df8) 5  
+[2017/03/21 21:56:55 738] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/21 21:56:55 738] isr        1054 session_end() [in]  
+[2017/03/21 21:56:55 738] isr        1111 cloud_session_end() [in]  
+[2017/03/21 21:56:55 741] isr        1180 cloud_session_end() [out]  
+[2017/03/21 21:56:55 741] isr        1323 isr unload!  
+============================================================
+Time  2017/03/21 13:57:46 986 
+============================================================
+[2017/03/21 13:57:46 986] isr        1315 isr loaded!  
+[2017/03/21 13:57:46 987] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7501cdf8) 
+[2017/03/21 13:57:46 987] isr        1203 ASR_MSG_SSB  
+[2017/03/21 13:57:46 987] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/21 13:57:46 987] isr        894  use cloud_grammar in params!  nil  
+[2017/03/21 13:57:46 988] isr        716  vad_set [in]  
+[2017/03/21 13:57:46 988] isr        751  vad_enable :  true  
+[2017/03/21 13:57:46 988] isr        768  vad_timeout :  10000  
+[2017/03/21 13:57:46 988] isr        769  vad_speech_tail :  2000  
+[2017/03/21 13:57:46 988] isr        675  enable_vad [in]  
+[2017/03/21 13:57:46 989] isr        707  vad enabled!  2000  10000  
+[2017/03/21 13:57:46 989] isr        710  enable_vad [out]  
+[2017/03/21 13:57:46 989] isr        775  vad_set [out] | ret =  0  
+[2017/03/21 13:57:46 989] isr        935  cur_engine_type =   cloud  
+[2017/03/21 13:57:46 989] isr        795  cloud_session_begin  
+[2017/03/21 13:57:46 989] isr        807  standard  
+[2017/03/21 13:57:46 993] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 13:57:46 993] isr        1224 6400  1  
+[2017/03/21 13:57:46 993] isr        1228 once_bytes:   6400  
+[2017/03/21 13:57:46 999] isr        623  [aud] speech start  
+[2017/03/21 21:57:47 180] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:47 180] isr        1224 6400  2  
+[2017/03/21 21:57:47 224] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:47 224] isr        511  cloud_status_cb, eps:  1  
+[2017/03/21 21:57:47 381] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:47 381] isr        1224 6400  2  
+[2017/03/21 21:57:47 426] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:47 581] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:47 581] isr        1224 6400  2  
+[2017/03/21 21:57:47 629] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:47 781] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:47 781] isr        1224 6400  2  
+[2017/03/21 21:57:47 955] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:47 982] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:47 982] isr        1224 6400  2  
+[2017/03/21 21:57:48 183] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:48 183] isr        1224 6400  2  
+[2017/03/21 21:57:48 211] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:48 254] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:48 384] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:48 384] isr        1224 6400  2  
+[2017/03/21 21:57:48 518] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:48 584] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:48 584] isr        1224 6400  2  
+[2017/03/21 21:57:48 654] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:48 799] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:48 800] isr        1224 6400  2  
+[2017/03/21 21:57:48 868] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:49 000] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:49 000] isr        1224 6400  2  
+[2017/03/21 21:57:49 090] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:49 200] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:49 200] isr        1224 6400  2  
+[2017/03/21 21:57:49 262] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:49 401] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:49 401] isr        1224 6400  2  
+[2017/03/21 21:57:49 602] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:49 602] isr        1224 6400  2  
+[2017/03/21 21:57:49 742] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:49 744] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:49 802] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:49 802] isr        1224 6400  2  
+[2017/03/21 21:57:49 865] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:50 003] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:50 003] isr        1224 6400  2  
+[2017/03/21 21:57:50 069] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:50 204] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:50 204] isr        1224 6400  2  
+[2017/03/21 21:57:50 273] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:50 404] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:50 405] isr        1224 6400  2  
+[2017/03/21 21:57:50 487] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:50 605] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:50 605] isr        1224 6400  2  
+[2017/03/21 21:57:50 671] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:50 806] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:50 806] isr        1224 6400  2  
+[2017/03/21 21:57:50 885] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:51 006] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:51 006] isr        1224 6400  2  
+[2017/03/21 21:57:51 069] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:51 207] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:51 207] isr        1224 6400  2  
+[2017/03/21 21:57:51 274] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/21 21:57:51 275] isr        462  cloud_rslt_cb status =   0  
+[2017/03/21 21:57:51 275] isr        339  process_result call:  cloud  udata(75025f70) 0  nil  
+[2017/03/21 21:57:51 408] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:51 408] isr        1224 7420  2  
+[2017/03/21 21:57:51 409] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:57:51 409] isr        1049 0  udata(75025f70) 0  
+[2017/03/21 21:57:51 468] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:51 540] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:51 611] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:57:51 612] isr        1224 0  4  
+[2017/03/21 21:57:51 612] isr        1257 aud end, USER  
+[2017/03/21 21:57:51 615] isr        633  [aud] speech end  
+[2017/03/21 21:57:51 617] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:57:51 618] isr        1049 0  nil  2  
+[2017/03/21 21:57:51 646] isr        506  cloud_status_cb, rcs:  2  
+[2017/03/21 21:57:51 660] isr        462  cloud_rslt_cb status =   5  
+[2017/03/21 21:57:51 660] isr        339  process_result call:  cloud  udata(750266b0) 5  nil  
+[2017/03/21 21:57:51 769] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:57:51 769] isr        1049 0  udata(750266b0) 5  
+[2017/03/21 21:57:51 921] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/21 21:57:51 921] isr        1054 session_end() [in]  
+[2017/03/21 21:57:51 921] isr        1111 cloud_session_end() [in]  
+[2017/03/21 21:57:51 927] isr        1180 cloud_session_end() [out]  
+[2017/03/21 21:57:51 928] isr        1323 isr unload!  
+============================================================
+Time  2017/03/21 13:58:16 540 
+============================================================
+[2017/03/21 13:58:16 540] isr        1315 isr loaded!  
+[2017/03/21 13:58:16 540] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7501cdf8) 
+[2017/03/21 13:58:16 541] isr        1203 ASR_MSG_SSB  
+[2017/03/21 13:58:16 541] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/03/21 13:58:16 541] isr        894  use cloud_grammar in params!  nil  
+[2017/03/21 13:58:16 541] isr        716  vad_set [in]  
+[2017/03/21 13:58:16 541] isr        751  vad_enable :  true  
+[2017/03/21 13:58:16 541] isr        768  vad_timeout :  10000  
+[2017/03/21 13:58:16 541] isr        769  vad_speech_tail :  2000  
+[2017/03/21 13:58:16 541] isr        675  enable_vad [in]  
+[2017/03/21 13:58:16 542] isr        707  vad enabled!  2000  10000  
+[2017/03/21 13:58:16 542] isr        710  enable_vad [out]  
+[2017/03/21 13:58:16 542] isr        775  vad_set [out] | ret =  0  
+[2017/03/21 13:58:16 543] isr        935  cur_engine_type =   cloud  
+[2017/03/21 13:58:16 543] isr        795  cloud_session_begin  
+[2017/03/21 13:58:16 543] isr        807  standard  
+[2017/03/21 13:58:16 547] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/21 13:58:16 547] isr        1054 session_end() [in]  
+[2017/03/21 13:58:16 547] isr        1111 cloud_session_end() [in]  
+[2017/03/21 13:58:16 549] isr        1180 cloud_session_end() [out]  
+[2017/03/21 13:58:16 550] isr        1323 isr unload!  
+============================================================
+Time  2017/03/21 13:58:56 295 
+============================================================
+[2017/03/21 13:58:56 295] isr        1315 isr loaded!  
+[2017/03/21 13:58:56 295] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7513a568) 
+[2017/03/21 13:58:56 296] isr        1203 ASR_MSG_SSB  
+[2017/03/21 13:58:56 296] isr        853  session_begin() [in], params:   sub = asr, result_type = plain, result_encoding = utf8,sample_rate = 16000,aue = speex-wb  4ff9ac535a486d3951ef2ca699ef1cc2  
+[2017/03/21 13:58:56 296] isr        716  vad_set [in]  
+[2017/03/21 13:58:56 296] isr        751  vad_enable :  true  
+[2017/03/21 13:58:56 296] isr        768  vad_timeout :  10000  
+[2017/03/21 13:58:56 296] isr        769  vad_speech_tail :  2000  
+[2017/03/21 13:58:56 296] isr        675  enable_vad [in]  
+[2017/03/21 13:58:56 297] isr        707  vad enabled!  2000  10000  
+[2017/03/21 13:58:56 297] isr        710  enable_vad [out]  
+[2017/03/21 13:58:56 297] isr        775  vad_set [out] | ret =  0  
+[2017/03/21 13:58:56 297] isr        935  cur_engine_type =   cloud  
+[2017/03/21 13:58:56 297] isr        795  cloud_session_begin  
+[2017/03/21 13:58:56 298] isr        807  standard  
+[2017/03/21 13:58:56 314] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 13:58:56 314] isr        1224 6400  1  
+[2017/03/21 13:58:56 314] isr        1228 once_bytes:   6400  
+[2017/03/21 13:58:56 320] isr        623  [aud] speech start  
+[2017/03/21 21:58:56 503] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:56 503] isr        1224 6400  2  
+[2017/03/21 21:58:56 703] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:56 703] isr        1224 6400  2  
+[2017/03/21 21:58:56 904] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:56 904] isr        1224 6400  2  
+[2017/03/21 21:58:57 104] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:57 104] isr        1224 6400  2  
+[2017/03/21 21:58:57 304] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:57 304] isr        1224 6400  2  
+[2017/03/21 21:58:57 505] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:57 505] isr        1224 6400  2  
+[2017/03/21 21:58:57 561] isr        511  cloud_status_cb, eps:  1  
+[2017/03/21 21:58:57 706] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:57 706] isr        1224 6400  2  
+[2017/03/21 21:58:57 906] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:57 923] isr        1224 6400  2  
+[2017/03/21 21:58:58 106] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:58 106] isr        1224 6400  2  
+[2017/03/21 21:58:58 307] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:58 307] isr        1224 6400  2  
+[2017/03/21 21:58:58 507] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:58 507] isr        1224 6400  2  
+[2017/03/21 21:58:58 707] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:58 708] isr        1224 6400  2  
+[2017/03/21 21:58:58 908] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:58 908] isr        1224 6400  2  
+[2017/03/21 21:58:59 108] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:59 108] isr        1224 6400  2  
+[2017/03/21 21:58:59 309] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:59 309] isr        1224 6400  2  
+[2017/03/21 21:58:59 509] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:59 509] isr        1224 6400  2  
+[2017/03/21 21:58:59 709] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:59 709] isr        1224 6400  2  
+[2017/03/21 21:58:59 910] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:58:59 910] isr        1224 6400  2  
+[2017/03/21 21:59:00 110] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:59:00 110] isr        1224 6400  2  
+[2017/03/21 21:59:00 310] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:59:00 310] isr        1224 11442  2  
+[2017/03/21 21:59:00 511] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 21:59:00 511] isr        1224 0  4  
+[2017/03/21 21:59:00 511] isr        1257 aud end, USER  
+[2017/03/21 21:59:00 513] isr        633  [aud] speech end  
+[2017/03/21 21:59:00 513] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:59:00 514] isr        1049 0  nil  2  
+[2017/03/21 21:59:00 549] isr        511  cloud_status_cb, eps:  1  
+[2017/03/21 21:59:00 664] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:59:00 664] isr        1049 0  nil  2  
+[2017/03/21 21:59:00 815] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:59:00 815] isr        1049 0  nil  2  
+[2017/03/21 21:59:00 966] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:59:00 966] isr        1049 0  nil  2  
+[2017/03/21 21:59:01 108] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/21 21:59:01 114] isr        462  cloud_rslt_cb status =   5  
+[2017/03/21 21:59:01 114] isr        339  process_result call:  cloud  udata(751565d0) 5  nil  
+[2017/03/21 21:59:01 115] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/21 21:59:01 116] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 21:59:01 117] isr        1049 0  udata(751565d0) 5  
+[2017/03/21 21:59:01 267] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/21 21:59:01 267] isr        1054 session_end() [in]  
+[2017/03/21 21:59:01 268] isr        1111 cloud_session_end() [in]  
+[2017/03/21 21:59:01 270] isr        1180 cloud_session_end() [out]  
+[2017/03/21 21:59:01 271] isr        1323 isr unload!  
+============================================================
+Time  2017/03/21 14:02:55 703 
+============================================================
+[2017/03/21 14:02:55 703] isr        1315 isr loaded!  
+[2017/03/21 14:02:55 703] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7513e168) 
+[2017/03/21 14:02:55 704] isr        1203 ASR_MSG_SSB  
+[2017/03/21 14:02:55 704] isr        853  session_begin() [in], params:   sub = asr, result_type = plain, result_encoding = utf8,sample_rate = 16000,aue = speex-wb  8a0cd66dae9eb8e21bc7017e518ba2bc  
+[2017/03/21 14:02:55 704] isr        716  vad_set [in]  
+[2017/03/21 14:02:55 704] isr        751  vad_enable :  true  
+[2017/03/21 14:02:55 704] isr        768  vad_timeout :  10000  
+[2017/03/21 14:02:55 704] isr        769  vad_speech_tail :  2000  
+[2017/03/21 14:02:55 704] isr        675  enable_vad [in]  
+[2017/03/21 14:02:55 705] isr        707  vad enabled!  2000  10000  
+[2017/03/21 14:02:55 705] isr        710  enable_vad [out]  
+[2017/03/21 14:02:55 706] isr        775  vad_set [out] | ret =  0  
+[2017/03/21 14:02:55 706] isr        935  cur_engine_type =   cloud  
+[2017/03/21 14:02:55 706] isr        795  cloud_session_begin  
+[2017/03/21 14:02:55 706] isr        807  standard  
+[2017/03/21 14:02:55 712] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 14:02:55 712] isr        1224 6400  1  
+[2017/03/21 14:02:55 713] isr        1228 once_bytes:   6400  
+[2017/03/21 14:02:55 719] isr        623  [aud] speech start  
+[2017/03/21 22:02:55 902] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:55 902] isr        1224 6400  2  
+[2017/03/21 22:02:56 102] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:56 102] isr        1224 6400  2  
+[2017/03/21 22:02:56 303] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:56 303] isr        1224 6400  2  
+[2017/03/21 22:02:56 503] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:56 503] isr        1224 6400  2  
+[2017/03/21 22:02:56 703] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:56 704] isr        1224 6400  2  
+[2017/03/21 22:02:56 904] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:56 904] isr        1224 6400  2  
+[2017/03/21 22:02:57 104] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:57 104] isr        1224 6400  2  
+[2017/03/21 22:02:57 261] isr        511  cloud_status_cb, eps:  1  
+[2017/03/21 22:02:57 305] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:57 305] isr        1224 6400  2  
+[2017/03/21 22:02:57 505] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:57 505] isr        1224 6400  2  
+[2017/03/21 22:02:57 705] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:57 705] isr        1224 6400  2  
+[2017/03/21 22:02:57 940] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:57 940] isr        1224 6400  2  
+[2017/03/21 22:02:58 140] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:58 140] isr        1224 6400  2  
+[2017/03/21 22:02:58 341] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:58 341] isr        1224 6400  2  
+[2017/03/21 22:02:58 541] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:58 542] isr        1224 6400  2  
+[2017/03/21 22:02:58 742] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:58 742] isr        1224 6400  2  
+[2017/03/21 22:02:58 943] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:58 943] isr        1224 6400  2  
+[2017/03/21 22:02:59 143] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:59 144] isr        1224 6400  2  
+[2017/03/21 22:02:59 344] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:59 344] isr        1224 6400  2  
+[2017/03/21 22:02:59 545] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:59 545] isr        1224 6400  2  
+[2017/03/21 22:02:59 746] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:59 746] isr        1224 11442  2  
+[2017/03/21 22:02:59 946] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/03/21 22:02:59 946] isr        1224 0  4  
+[2017/03/21 22:02:59 946] isr        1257 aud end, USER  
+[2017/03/21 22:02:59 948] isr        633  [aud] speech end  
+[2017/03/21 22:02:59 949] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 22:02:59 949] isr        1049 0  nil  2  
+[2017/03/21 22:02:59 981] isr        511  cloud_status_cb, eps:  1  
+[2017/03/21 22:03:00 100] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 22:03:00 100] isr        1049 0  nil  2  
+[2017/03/21 22:03:00 250] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 22:03:00 251] isr        1049 0  nil  2  
+[2017/03/21 22:03:00 401] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 22:03:00 401] isr        1049 0  nil  2  
+[2017/03/21 22:03:00 538] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/21 22:03:00 542] isr        462  cloud_rslt_cb status =   5  
+[2017/03/21 22:03:00 542] isr        339  process_result call:  cloud  udata(75105020) 5  nil  
+[2017/03/21 22:03:00 543] isr        506  cloud_status_cb, rcs:  0  
+[2017/03/21 22:03:00 552] isr        1292 ASR_MSG_GRSLT,   cloud  
+[2017/03/21 22:03:00 552] isr        1049 0  udata(75105020) 5  
+[2017/03/21 22:03:00 704] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/03/21 22:03:00 704] isr        1054 session_end() [in]  
+[2017/03/21 22:03:00 704] isr        1111 cloud_session_end() [in]  
+[2017/03/21 22:03:00 707] isr        1180 cloud_session_end() [out]  
+[2017/03/21 22:03:00 707] isr        1323 isr unload!  
