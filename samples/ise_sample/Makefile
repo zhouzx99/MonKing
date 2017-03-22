@@ -13,7 +13,7 @@ CFLAGS = -g -Wall -I$(DIR_INC)
 ifdef LINUX64
 LDFLAGS := -L$(DIR_LIB)/x64
 else
-LDFLAGS := -L$(DIR_LIB)/x86 
+LDFLAGS := -L$(DIR_LIB)/pi 
 endif
 LDFLAGS += -lmsc -lrt -ldl -lpthread
 
